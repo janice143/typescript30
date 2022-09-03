@@ -3,10 +3,12 @@
 [30 Day Challenge](https://courses.wesbos.com/account)是 [Wes Bos](https://github.com/wesbos) 设计的一个 30 天原生JS编程挑战。
 
 项目免费提供了 30 个视频教程、30 个挑战的起始文档和 30 个挑战解决方案源代码。目的是在不借助框架、库、编译器和引用的情况下，帮助初学者理解纯JavaScript语言。
+
 本项目基于JS30项目，采用[TypeScript][typescriptlang]语言来实现。
 另外，你也可以看我的[JS30](https://github.com/janice143/JavaScript30Program)。
 
 喜欢请 Star 哦♪(^∇^*)
+
 Have fun with the website! ♪(^∇^*)
 
 ## 项目使用指南
