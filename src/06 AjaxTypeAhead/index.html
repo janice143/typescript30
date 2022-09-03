@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun dictionary</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            background-color: blueviolet;
+        }
+        .main{
+            width: 1000px;
+            min-height: 100vh;
+            margin:0 auto;
+            /* background-color: blue; */
+            
+            
+        }
+        #search{
+            margin-top: 30px;
+            width: 50%;
+            height: 80px;
+            text-align: center;
+            position: relative;
+            left: 25%;
+            border-radius: 5px;
+            font-size: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+        }
+        .content{
+            font:10px;
+            color:black;
+        }
+        .content li {
+            background: white;
+            list-style: none;
+            border-bottom: 1px solid #D8D8D8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+            margin: 0;
+            padding: 20px;
+            transition: background 0.2s;
+        }
+
+        .content li:nth-child(even) {
+            transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+            background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
+        }
+
+        .content li:nth-child(odd) {
+            transform: perspective(100px) rotateX(-3deg) translateY(3px);
+            background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+        }
+        .content .definition{
+            font-size: 8px;
+
+        }
+
+        .hl{
+            background: #ffc600;
+        }
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="main">
+        <input id="search" type="text" name="search" placeholder="输入你要查找的单词">
+        <ul class="content">
+            <!-- <li>Filter for a word</li>
+            <li>or a state</li> -->
+        </ul>
+    </div>
+</body>
+<script src="index.js">
+    
+</script>
+    
+
+</html>
